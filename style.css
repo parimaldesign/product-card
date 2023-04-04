@@ -96,7 +96,8 @@ img {
 .card .content-wrap .tag {
   color: var(--greyblue);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
+  opacity: 0.9;
 }
 .card .content-wrap .product-title {
   font-size: 2rem;
