@@ -55,7 +55,7 @@ img {
 .btn-main i {
   margin-right: 5px;
 }
-.btn-main:hover {
+.btn-main:hover, .btn-main:focus {
   background-color: #1a4031;
 }
 
@@ -121,10 +121,10 @@ img {
   color: var(--greyblue);
   font-family: "Montserrat", sans-serif;
 }
-.card:hover {
+.card:hover, .card:focus {
   box-shadow: 0 20px 50px rgba(15, 56, 42, 0.2);
 }
-.card:hover .img-wrap img {
+.card:hover .img-wrap img, .card:focus .img-wrap img {
   transform: scale(1.1);
 }
 
