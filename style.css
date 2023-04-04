@@ -116,9 +116,10 @@ img {
   align-items: center;
   gap: 10px;
 }
-.card .content-wrap .price strike {
+.card .content-wrap .price .strike {
   font-size: 15px;
   color: var(--greyblue);
+  text-decoration: line-through;
   font-family: "Montserrat", sans-serif;
 }
 .card:hover, .card:focus {

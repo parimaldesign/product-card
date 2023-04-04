@@ -124,9 +124,10 @@ img {
             align-items: center;
             gap: 10px;
 
-            strike{
+            .strike{
                 font-size: 15px;
                 color: var(--greyblue);
+                text-decoration: line-through;
                 font-family: 'Montserrat', sans-serif;
             }
         }
